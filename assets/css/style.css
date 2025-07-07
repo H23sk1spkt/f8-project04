@@ -157,3 +157,74 @@ background: var(--background,#FEC23F);
     background:#F2F2F2;
     margin: 20px 0;
 }
+.hero__inner {
+    display: flex;
+}
+section {
+    width: 50%;
+    margin-top: 71px;
+    margin-left: 121px;
+}
+.hero__content-heading {
+    color: #000958;
+    font-family: Sora;
+    font-size: 66px;
+    font-weight: 800;
+    line-height: 1.1525; /* 115.152% */
+}
+.hero__content-title {
+    max-width: 391px;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+}
+.hero__contact {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+.hero__contact_item {
+    display: flex;
+    text-align: center;
+    padding: 20px 30px;
+    width: 189px;
+    height: 60px;
+    border-radius: 31px;
+    background: #FF5B2E;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+.hero__contact__btn {
+    color: #fff;
+}
+.hero__contact__btn::after {
+    margin-left: 10px;
+    background: #FFFAF5;
+    color:#FD5056;
+    content: ">";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+    /* dùng line hieght để căn giữa nha */
+}
+.hero__contact__bonus {
+    color: #000958;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-decoration: none;
+    margin-left: 24px;
+    }
